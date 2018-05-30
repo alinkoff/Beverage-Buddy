@@ -9,8 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    var message = "Hello Git!!"
+    
+    var username = NSUserName()
+    var message = "Hello " + Username
     
     @IBOutlet weak var reversedMessage: UILabel!
     
